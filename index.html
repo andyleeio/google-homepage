@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head> 
+    <style> 
+    body {
+        background-color: white;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    li {
+        display: inline;
+    }
+    .navbar {
+        float: right; 
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        
+    }
+    div {
+        text-align: center;
+    }
+    .google {
+        padding-top: 150px;
+        margin: 0 auto;
+        display: block;
+        margin-left: 40%;
+        margin-right: auto
+    }
+   
+    li a {
+        color: black;
+    }
+    .gmail {
+        background-color: #4285f4; /* Blue */
+        border: none;
+        color: white;
+        margin: 5px;
+        padding: 9px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    .two {
+        background-color: #e7e7e7; /* Gray */
+        border: none;
+        color: #5F6368;
+        margin: 0px 10px;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .two:hover {
+     background-color: #f2f2f2;
+    }
+    input {
+        border-radius: 16px;
+        padding: 12px 20px;
+        width: 37%;
+        padding: 12px 20px;
+        margin: 25px 0;
+        box-sizing: border-box;
+    }
+    input:hover {
+        box-shadow: 0 0px 0px 0 rgba(0,0,0,0.12), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .nav {
+        background-color:#f1f1f1;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        margin: 0 0 0 -10px;
+        width: 100%;
+    }
+    .nav a {
+        display: block;
+        color: #222;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .nav-left a {
+        float: left;
+        margin-left: 10px;
+    }
+    .nav-right a {
+        float: right;
+        margin-right: 10px;
+}
+    .nav a:hover{
+        text-decoration: underline;
+    }
+
+    p{
+        text-align: center;
+        font-size: 14px;
+    }
+    p a:link {
+        text-decoration: none;
+    }
+    #top {
+        vertical-align: middle;
+    }
+    </style>
+</head>
+    </style>
+    <body>
+        <div class="navbar">
+        <ul>
+            <li><a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fsafe%3Dimages&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+            ></a><button class="gmail">Sign In</button></a></li>
+            <li><a href="https://www.google.com/intl/nl/gmail/about/#" id="top">Gmail</a></li>
+            <li><a href="https://www.google.nl/imghp?hl=nl&tab=wi&ogbl" id="top">Images</a></li>
+         </ul>
+        </div>
+
+    <div class="div2">  
+    <a href="https://www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="google"> </a>
+</div> 
+
+    <div>
+    <form action="/submit-google-query" class="search"> 
+        <input type="text" required> 
+    </form>
+    <br>
+    <button type="submit" class="two">Google Search</button>
+    <button type="submit" class="two">I'm Feeling Lucky </button>
+</div>
+<br>
+<p>
+    Google offered in <a href="https://www.google.com/">Nederlands</a> <a href="https://www.google.com/">Frysk</a>
+</p>
+
+<nav class="nav">
+<div class="nav-left">
+    <ul>
+        <li><a href="https://ads.google.com/">Advertising</a></li>
+        <li><a href="ttps://www.google.com/services">Business</a></li>
+        <li><a href="https://about.google/">About</a></li>
+        <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+     </ul>
+</div>
+
+<div class="nav-right">
+    <ul>
+        <li><a href="https://policies.google.com/privacy">Privacy</a></li>
+        <li><a href="https://policies.google.com/terms">Terms</a></li>
+        <li><a href="https://www.google.com/preferences">Settings</a></li>
+     </ul>
+</div>
+</nav>
+</body>
+
+    
